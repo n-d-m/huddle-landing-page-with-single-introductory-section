@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/mobile-first-responsive-huddle-landing-page-section-_n88dOT4Kk)
 - Live Site URL: [GitHub Pages](https://n-d-m.github.io/huddle-landing-page-with-single-introductory-section/)
 
 ## My process
