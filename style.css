@@ -14,7 +14,7 @@ body {
   background-image: url(./images/bg-mobile.svg);
   background-color: var(--primary-violet);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   font-family: "Poppins", sans-serif;
 }
 
@@ -138,7 +138,55 @@ main {
   color: hsl(228, 28%, 61%);
 }
 
-@media screen and (min-width: 476px) {
+@media screen and (min-width: 859px) {
+  body {
+    background-image: url(./images/bg-desktop.svg);
+    background-size: cover;
+  }
+
+  .container {
+    max-width: 1000px;
+  }
+
+  .wrapper {
+    width: 100%;
+    height: 100%;
+  }
+
+  header {
+    padding-left: 2.5rem;
+  }
+
+  main {
+    flex-direction: row;
+  }
+
+  .hero-img {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text {
+    width: 40%;
+    text-align: left;
+  }
+
+  .hero-text > button {
+    align-self: flex-start;
+  }
+
+  .social {
+    width: 100%;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding-right: 3rem;
+  }
+}
+
+@media screen and (min-width: 1303px) {
   body {
     background-image: url(./images/bg-desktop.svg);
     background-size: cover;
@@ -149,7 +197,7 @@ main {
   }
 
   .wrapper {
-    width: 1440px;
+    width: 100%;
     height: 100%;
   }
 
